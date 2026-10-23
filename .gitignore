@@ -1,0 +1,38 @@
+# ── Virtual environment ──────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── PyInstaller build artifacts ──────────────────────────────────
+build/
+8_dist/
+*.spec
+
+# ── Python cache ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# ── Egg / dist metadata ───────────────────────────────────────────
+*.egg-info/
+dist/
+
+# ── Dev-only sample data ──────────────────────────────────────────
+7_samples/
+
+# ── OS / editor junk ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Secrets / local config ───────────────────────────────────────
+.env
+*.env.local
+
+User Manual/
